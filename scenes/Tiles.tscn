@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dd2nn01whekl5"]
+
+[ext_resource type="Texture2D" uid="uid://pgt7523inpoo" path="res://assets/sprites/ground.png" id="1_ie7ma"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bwv4p"]
+texture = ExtResource("1_ie7ma")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+
+[sub_resource type="TileSet" id="TileSet_odhdn"]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_bwv4p")
+
+[node name="TileMapLayer" type="TileMapLayer"]
+tile_set = SubResource("TileSet_odhdn")
