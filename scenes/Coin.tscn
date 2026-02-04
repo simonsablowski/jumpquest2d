@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://d0l45j2bap20w"]
 
 [ext_resource type="Texture2D" uid="uid://bunryawrm1hjm" path="res://assets/sprites/coin.png" id="1_owubc"]
-[ext_resource type="Script" path="res://scripts/Coin.gd" id="2_coin_script"]
+[ext_resource type="Script" uid="uid://duvkgh8l412kh" path="res://scripts/Coin.gd" id="2_coin_script"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_kyq3r"]
-radius = 19.0
+radius = 16.0
 
 [node name="Coin" type="Area2D"]
 script = ExtResource("2_coin_script")
