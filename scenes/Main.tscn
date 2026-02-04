@@ -9,11 +9,12 @@
 [node name="UI" type="CanvasLayer" parent="."]
 
 [node name="ScoreLabel" type="Label" parent="UI"]
-offset_left = -618.0
-offset_top = -344.0
-offset_right = -557.0
-offset_bottom = -321.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 120.0
+offset_bottom = 50.0
 text = "Score: 0"
+theme_override_font_sizes/font_size = 24
 
 [node name="Player" parent="." instance=ExtResource("1_elqb8")]
 scale = Vector2(4, 4)
